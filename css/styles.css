@@ -42,6 +42,18 @@ ul {
   color: var(--text-color);
 }
 
+.main-menu {
+display:flex;
+}
+
+.main-menu .main-menu-item {
+  margin-right: 50px;
+}
+
+.main-menu-item:last-child {
+  margin-right: 0;
+}
+
 .menu-item {
   font-weight: 500;
   font-size: 14px;
@@ -235,3 +247,5 @@ ul {
   color: var(--light-text-color);
   letter-spacing: 0.03em;
 }
+
+
