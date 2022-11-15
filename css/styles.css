@@ -87,6 +87,11 @@ ul {
 }
 
 .main-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: inherit;
   font-style: normal;
   line-height: 1.88;
@@ -97,6 +102,7 @@ ul {
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.06em;
+ 
 }
 
 .main-button:hover,
@@ -187,6 +193,11 @@ ul {
 /*Second page*/
 
 .button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 25px;
+  min-width: 73px;
+  border: 1px solid transparent;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -195,6 +206,7 @@ ul {
   background-color: var(--light-bg-color);
   cursor: pointer;
   letter-spacing: 0.03em;
+ 
 }
 
 .button:focus,
