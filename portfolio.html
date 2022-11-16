@@ -12,24 +12,28 @@
   <body>
       <!-- Header -->
     <header class="header">
-            <div class="header-list">
-                <a class="link web" href="./index.html">
-                  Web<span class="studio">Studio</span></a>
-      <nav>
-        <ul class="list main-menu">
-          <li><a  class="link menu-item" href="./index.html" class="link">Студія</a></li>
-          <li><a class="link menu-item current" href="./portfolio.html">Портфоліо</a></li>
-          <li><a a class="link menu-item" href="">Контакти</a></li>
-        </ul>  
-      </nav>
-      <ul class="list contact-list">
-        <!-- Link to e-mail address -->
-        <li><a href="mailto:info@devstudio.com" class="link main-contact">info@devstudio.com</a></li>
-
-        <!-- Link to phone number  -->
-        <li><a href="tel:+380961111111" class="link main-contact">+38 096 111 11 11</a></li>
-      </ul>
-        </div>
+      <div class="header-list container">
+        <nav>
+          <a class="link web" href="./index.html">
+            Web<span class="studio">Studio</span>
+          </a>
+          <nav>
+            <ul class="list main-menu">
+              <li class="main-menu-item"><a href="./index.html" class="link menu-item ">Студія</a></li>
+              <li class="main-menu-item"><a href="./portfolio.html" class="link menu-item current">Портфоліо</a></li>
+              <li class="main-menu-item"><a href="" class="link menu-item">Контакти</a></li>
+            </ul>
+          </nav>
+    
+          <ul class="list contact-list">
+            <!-- Link to e-mail address -->
+            <li class="contact-list-item"><a href="mailto:info@devstudio.com"
+                class="link main-contact">info@devstudio.com</a></li>
+    
+            <!-- Link to phone number  -->
+            <li class="contact-list-item"><a href="tel:+380961111111" class="link main-contact">+38 096 111 11 11</a></li>
+          </ul>
+      </div>
     </header>
 
     <!--Portfolio-->
@@ -44,6 +48,7 @@
           <li><button type="button" class="button">Маркетинг</button></li>
         </ul>
 
+        <div class="flex-container">
         <ul class="list portfolio-card-list">
           <li class="portfolio-card">
             <a class="link" href="">
@@ -118,6 +123,7 @@
             </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
